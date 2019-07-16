@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Choose Food Category and Food below:"/>
+
+   <Spinner
+       android:layout_width="200dp"
+       android:layout_height="match_parent"
+       android:id="@+id/foodcategory"
+       android:layout_marginTop="20dp"
+       android:entries="@array/food_category"
+       android:layout_marginLeft="50dp"></Spinner>
+
+
+
+    <Spinner
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:id="@+id/food"
+        android:layout_marginLeft="50dp"
+        android:textSize="16sp"></Spinner>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+
+        <Button
+            android:id="@+id/addconsumption"
+            android:layout_width="200dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="match_parent"
+            android:text="Add to consumption"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Add a new food below:"/>
+
+    <EditText
+        android:id="@+id/newfood"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        />
+
+
+
+
+    <Button
+        android:id="@+id/submitbtn"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:text="Submit"/>
+
+        <TextView
+            android:id="@+id/googletxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:id="@+id/foodimage"
+            />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+    
+</ScrollView>

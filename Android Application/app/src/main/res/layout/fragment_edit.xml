@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Edit below"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        />
+    <EditText
+        android:id="@+id/stepsinput"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:inputType="number"
+        android:hint="Enter the new value"/>
+
+    <Button
+        android:id="@+id/btn_stepedit"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="SUBMIT"/>
+
+
+
+
+
+</LinearLayout>
